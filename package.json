@@ -1,0 +1,13 @@
+{
+  "name": "hmrcscrape",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "2",
+    "turndown": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2"
+  }
+}
