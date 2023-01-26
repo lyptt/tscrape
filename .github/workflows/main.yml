@@ -33,7 +33,7 @@ jobs:
         run: yarn
 
       - name: Run
-        run: node local.js
+        run: yarn playwright test
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
